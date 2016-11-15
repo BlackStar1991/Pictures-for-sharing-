@@ -1,0 +1,672 @@
+#field {
+		position: relative;
+		width: 600px;
+		height: 600px;
+		border: 1px solid black;
+		background-color: #EEE4BE;
+}
+
+#bigBlock {
+		position: relative;
+		width: 500px;
+		height: 500px;
+		border: 1px solid black;
+
+		margin-top: 5%;
+		margin-left: 5%;
+		/*background: url("rockclimber-400x385.png")  50% 50% no-repeat;*/
+}
+
+.block {
+		position: absolute;
+
+		border: 3px solid white;
+		-webkit-box-shadow: -10px 17px 25px 11px rgba(0, 0, 0, 0.6);
+		-moz-box-shadow: -10px 17px 25px 11px rgba(0, 0, 0, 0.6);
+		box-shadow: -10px 17px 25px 11px rgba(0, 0, 0, 0.6);
+
+		transform-origin: center;
+
+		-webkit-animation-timing-function: linear, linear;
+		-webkit-animation-iteration-count: infinite, infinite;
+		-webkit-animation-direction: normal, normal;
+		-webkit-animation-fill-mode: forwards;
+		-webkit-backface-visibility: visible;
+
+		-moz-animation-timing-function: linear, linear;
+		-moz-animation-iteration-count: infinite, infinite;
+		-moz-animation-direction: normal, normal;
+		-moz-animation-fill-mode: forwards;
+		-moz-backface-visibility: visible;
+
+		-o-animation-timing-function: linear, linear;
+		-o-animation-iteration-count: infinite, infinite;
+		-o-animation-direction: normal, normal;
+		-o-animation-fill-mode: forwards;
+
+		animation-timing-function: linear, linear;
+		animation-iteration-count: infinite, infinite;
+		animation-direction: normal, normal;
+		animation-fill-mode: forwards;
+		backface-visibility: visible;
+}
+
+.block:nth-child(1) {
+
+		width: 20%;
+		height: 45%;
+
+		top: 10%;
+		left: 10%;
+
+		background: #ED5A00 url("dancer1-400x385.png") no-repeat 6px 0px;
+		z-index: 6;
+
+		-moz-animation-name: flip, puzzle1;
+		-moz-animation-duration: 4s, 16s;
+		-moz-animation-delay: 3s, 3s;
+
+		animation-name: flip, puzzle1;
+		animation-duration: 4s, 16s;
+		animation-delay: 3s, 3s;
+
+}
+
+.block:nth-child(2) {
+		width: 25%;
+		height: 55%;
+
+		top: 8%;
+		left: 31%;
+
+		background: #8BCC00 url("dancer1-400x385.png") no-repeat -98px 4px;
+
+		z-index: 7;
+
+		-moz-animation-name: flip, puzzle2;
+		-moz-animation-duration: 4s, 16s;
+		-moz-animation-delay: 3s, 3s;
+
+		animation-name: flip, puzzle2;
+		animation-duration: 4s, 16s;
+		animation-delay: 3s, 3s;
+
+}
+
+.block:nth-child(3) {
+
+		width: 20%;
+		height: 20%;
+
+		top: 6%;
+		left: 57%;
+
+		background: #ED5A00 url("dancer1-400x385.png") no-repeat -238px 10px;
+
+		z-index: 5;
+
+		-moz-animation-name: flip, puzzle3;
+		-moz-animation-duration: 4s, 16s;
+		-moz-animation-delay: 3s, 3s;
+
+		animation-name: flip, puzzle3;
+		animation-duration: 4s, 16s;
+		animation-delay: 3s, 3s;
+
+}
+
+.block:nth-child(4) {
+		width: 20%;
+		height: 35%;
+
+		top: 4%;
+		left: 78%;
+
+		background: #ED5A00 url("dancer1-400x385.png") no-repeat -338px 17px;
+
+		z-index: 4;
+
+		-moz-animation-name: flip, puzzle4;
+		-moz-animation-duration: 4s, 16s;
+		-moz-animation-delay: 3s, 3s;
+
+		animation-name: flip, puzzle4;
+		animation-duration: 4s, 16s;
+		animation-delay: 3s, 3s;
+
+}
+
+.block:nth-child(5) {
+		width: 20%;
+		height: 15%;
+
+		top: 27%;
+		left: 57%;
+
+		background: #D6AF71 url("dancer1-400x385.png") no-repeat -238px -92px;
+
+		z-index: 3;
+
+		-moz-animation-name: flip, puzzle5;
+		-moz-animation-duration: 4s, 16s;
+		-moz-animation-delay: 3s, 3s;
+
+		animation-name: flip, puzzle5;
+		animation-duration: 4s, 16s;
+		animation-delay: 3s, 3s;
+
+}
+
+.block:nth-child(6) {
+		width: 10%;
+		height: 12%;
+
+		top: 44%;
+		left: 57%;
+
+		background: #653838 url("dancer1-400x385.png") no-repeat -221px -180px;
+
+		z-index: 2;
+
+		-moz-animation-name: flip, puzzle6;
+		-moz-animation-duration: 4s, 16s;
+		-moz-animation-delay: 3s, 3s;
+
+		animation-name: flip, puzzle6;
+		animation-duration: 4s, 16s;
+		animation-delay: 3s, 3s;
+
+}
+
+.block:nth-child(7) {
+
+		width: 30%;
+		height: 35%;
+
+		top: 58%;
+		left: 10%;
+
+		background: #F1C81F url("dancer1-400x385.png") no-repeat 5px -241px;
+
+		z-index: 1;
+
+		-moz-animation-name: flip, puzzle7;
+		-moz-animation-duration: 4s, 16s;
+		-moz-animation-delay: 3s, 3s;
+
+		animation-name: flip, puzzle7;
+		animation-duration: 4s, 16s;
+		animation-delay: 3s, 3s;
+
+}
+
+@keyframes puzzle1 {
+		0%, 81.25%, 100% {
+				width: 20%;
+				height: 45%;
+
+				top: 10%;
+				left: 10%;
+
+				background: #ED5A00 url("dancer1-400x385.png") no-repeat 6px 0px;
+				z-index: 6;
+		}
+
+		6.25%, 25% {
+				width: 45%;
+				height: 20%;
+
+				top: 76%;
+				left: 38%;
+
+				background: #3D6AFA url("snowboarder-400x385.png") no-repeat -165px -295px;
+
+				z-index: 7;
+
+		}
+
+		31.25%, 50% {
+				width: 20%;
+				height: 45%;
+
+				top: 36%;
+				left: 57%;
+
+				background: #307A00 url("skydayving-400x385.png") no-repeat -245px -130px;
+
+				z-index: 5;
+		}
+
+		56.25%, 75% {
+				width: 45%;
+				height: 20%;
+
+				top: 21%;
+				left: 25%;
+
+				background: #9A2505 url("rockclimber-400x385.png") no-repeat -75px -50px;
+
+				z-index: 4;
+		}
+
+}
+
+@keyframes puzzle2 {
+		0%, 81.25%, 100% {
+				width: 25%;
+				height: 55%;
+
+				top: 8%;
+				left: 31%;
+
+				background: #8BCC00 url("dancer1-400x385.png") no-repeat -98px 4px;
+
+				z-index: 7;
+		}
+
+		6.25%, 25% {
+				width: 55%;
+				height: 25%;
+
+				top: 50%;
+				left: 5%;
+				background: #4F2352 url("snowboarder-400x385.png") no-repeat 0px -170px;
+
+				z-index: 6;
+
+		}
+
+		31.25%, 50% {
+				width: 25%;
+				height: 55%;
+
+				top: 8%;
+				left: 31%;
+
+				background: #8BCC02 url("skydayving-400x385.png") no-repeat -121px 4px;
+
+				z-index: 6;
+		}
+
+		56.25%, 75% {
+
+				width: 55%;
+				height: 25%;
+
+				top: 42%;
+				left: 41%;
+
+				background: #4F2352 url("rockclimber-400x385.png") no-repeat -155px -150px;
+
+				z-index: 5;
+
+		}
+
+}
+
+@keyframes puzzle3 {
+		0%, 81.25%, 100% {
+
+				width: 20%;
+				height: 20%;
+
+				top: 6%;
+				left: 57%;
+
+				background: #ED5A00 url("dancer1-400x385.png") no-repeat -238px 10px;
+
+				z-index: 5;
+		}
+
+		6.25%, 25% {
+				width: 20%;
+				height: 20%;
+
+				top: 30%;
+				left: 6%;
+
+				background: #B38CFC url("snowboarder-400x385.png") no-repeat -5px -70px;
+
+				z-index: 5;
+		}
+
+		31.25%, 50% {
+				width: 20%;
+				height: 20%;
+
+				top: 64%;
+				left: 15%;
+
+				background: #09CE07 url("skydayving-400x385.png") no-repeat -54px -261px;
+
+				z-index: 1;
+		}
+
+		56.25%, 75% {
+				width: 20%;
+				height: 20%;
+
+				top: 0%;
+				left: 63%;
+
+				background: #9A2505 url("rockclimber-400x385.png") no-repeat -270px 50px;
+
+				z-index: 3;
+		}
+
+}
+
+@keyframes puzzle4 {
+		0%, 81.25%, 100% {
+				width: 20%;
+				height: 35%;
+
+				top: 4%;
+				left: 78%;
+
+				background: #ED5A00 url("dancer1-400x385.png") no-repeat -338px 17px;
+
+				z-index: 4;
+		}
+
+		6.25%, 25% {
+				width: 35%;
+				height: 20%;
+
+				top: 29%;
+				left: 27%;
+				background: #1813F1 url("snowboarder-400x385.png") no-repeat -110px -70px;
+
+				z-index: 4;
+		}
+
+		31.25%, 50% {
+				width: 20%;
+				height: 35%;
+
+				top: 64%;
+				left: 36%;
+
+				background: #307A00 url("skydayving-400x385.png") no-repeat -152px -268px;
+
+				z-index: 2;
+		}
+
+		56.25%, 75% {
+				width: 35%;
+				height: 20%;
+
+				top: 68%;
+				left: 41%;
+
+				background: #B50969 url("rockclimber-400x385.png") no-repeat -153px -280px;
+
+				z-index: 1;
+		}
+
+}
+
+@keyframes puzzle5 {
+		0%, 81.25%, 100% {
+				width: 20%;
+				height: 15%;
+
+				top: 27%;
+				left: 57%;
+
+				background: #D6AF71 url("dancer1-400x385.png") no-repeat -238px -92px;
+
+				z-index: 3;
+		}
+
+		6.25%, 25% {
+				width: 15%;
+				height: 20%;
+
+				top: 27%;
+				left: 63%;
+				background: #BED71E url("snowboarder-400x385.png") no-repeat -292px -62px;
+
+				z-index: 3;
+		}
+
+		31.25%, 50% {
+				width: 20%;
+				height: 15%;
+
+				top: 35%;
+				left: 10%;
+
+				background: #653838 url("skydayving-400x385.png") no-repeat -10px -130px;
+
+				z-index: 7;
+		}
+
+		56.25%, 75% {
+				width: 15%;
+				height: 20%;
+
+				top: 21%;
+				left: 71%;
+
+				background: #B50969 url("rockclimber-400x385.png") no-repeat -305px -50px;
+
+				z-index: 2;
+		}
+
+}
+
+@keyframes puzzle6 {
+		0%, 81.25%, 100% {
+				width: 10%;
+				height: 12%;
+
+				top: 44%;
+				left: 57%;
+
+				background: #653838 url("dancer1-400x385.png") no-repeat -221px -180px;
+
+				z-index: 2;
+		}
+
+		6.25%, 25% {
+				width: 12%;
+				height: 10%;
+
+				top: 43%;
+				left: 79%;
+				background: #1813F1 url("snowboarder-400x385.png") no-repeat -365px -135px;
+
+				z-index: 2;
+		}
+
+		31.25%, 50% {
+				width: 10%;
+				height: 12%;
+
+				top: 15%;
+				left: 88%;
+				background: #653838 url("skydayving-400x385.png") no-repeat -390px -30px;
+
+				z-index: 3;
+		}
+
+		56.25%, 75% {
+				width: 12%;
+				height: 10%;
+
+				top: 31%;
+				left: 12%;
+
+				background: #A83D72 url("rockclimber-400x385.png") no-repeat -10px -100px;
+
+				z-index: 6;
+		}
+
+}
+
+@keyframes puzzle7 {
+		0%, 81.25%, 100% {
+				width: 30%;
+				height: 35%;
+
+				top: 58%;
+				left: 10%;
+
+				background: #F1C81F url("dancer1-400x385.png") no-repeat 5px -241px;
+
+				z-index: 1;
+
+		}
+
+		6.25%, 25% {
+				width: 35%;
+				height: 30%;
+
+				top: 0%;
+				left: 27%;
+				background: #ADE4FF url("snowboarder-400x385.png") no-repeat -110px 70px;
+
+				z-index: 1;
+		}
+
+		31.25%, 50% {
+				width: 30%;
+				height: 35%;
+
+				top: 0%;
+				left: 57%;
+				background: #09CE05 url("skydayving-400x385.png") no-repeat -243px 45px;
+
+				z-index: 4;
+		}
+
+		56.25%, 75% {
+				width: 35%;
+				height: 30%;
+				top: 62%;
+				left: 5%;
+
+				background: #4F2352 url("rockclimber-400x385.png") no-repeat 0px -235px;
+
+				z-index: 7;
+		}
+
+}
+/* Animation */
+
+@-webkit-keyframes flip {
+		0% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+				-webkit-animation-timing-function: ease-out;
+				animation-timing-function: ease-out;
+		}
+
+		10% {
+				-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+				transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+				-webkit-animation-timing-function: ease-out;
+				animation-timing-function: ease-out;
+		}
+
+		12.5% {
+				-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+				transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		}
+
+		20% {
+				-webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+				transform: perspective(400px) scale3d(.95, .95, .95);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		}
+
+		25% {
+				-webkit-transform: perspective(400px);
+				transform: perspective(400px);
+
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		}
+
+		100% {
+
+		}
+
+}
+
+@keyframes flip {
+		0% {
+				-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+				transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+				-webkit-animation-timing-function: ease-out;
+				animation-timing-function: ease-out;
+		}
+
+		10% {
+				-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+				transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+				-webkit-animation-timing-function: ease-out;
+				animation-timing-function: ease-out;
+		}
+
+		12.5% {
+				-webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+				transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		}
+
+		20% {
+				-webkit-transform: perspective(400px) scale3d(.95, .95, .95);
+				transform: perspective(400px) scale3d(.95, .95, .95);
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		}
+
+		25% {
+				-webkit-transform: perspective(400px);
+				transform: perspective(400px);
+
+				-webkit-animation-timing-function: ease-in;
+				animation-timing-function: ease-in;
+		}
+
+		100% {
+
+		}
+}
+
+
+.line1{
+		position: absolute;
+		top: 35%;
+		left:0%;
+		width: 100%;
+		height: 50px;
+		background-color: red;
+}
+
+.line2{
+		position: absolute;
+		top: 50%;
+		left:0%;
+		width: 100%;
+		height: 50px;
+		background-color: red;
+}
+
+#BlackStar {
+		position: absolute;
+		top: 90%;
+		left: 5%;
+		font-size: 1.2em;
+		color: rgba(0, 0, 0, 0.3);
+		width: 100%;
+}
+
+
+
