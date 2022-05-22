@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ukraine</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #000;
+
+        }
+
+        video{
+            -o-object-fit: cover;
+            object-fit: cover;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+
+        }
+
+
+        a{
+            display: block;
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+        }
+
+        h1{
+            color:#ffdd20;
+            font-size: 30px;
+            margin: 0;
+            font-family: "Roboto", sans-serif;
+            -webkit-text-stroke: 1px #fff;
+            background: linear-gradient(-45deg, #ffdd20, #035bc5);
+            background-size: 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: move 5s ease-in-out infinite;
+        }
+
+        @media (min-width:720px) {
+            h1{
+                font-size: 3em;
+                -webkit-text-stroke: 2px #fff;
+            }
+        }
+
+
+        @media (min-width:850px) {
+            h1{
+                font-size: 5em
+            }
+        }
+
+
+        @keyframes move {
+            0%, 100%{
+                background-position: 0 50%;
+            }
+            50%{
+                background-position: 100% 50%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+   <video src="ukraine-woman.webm" muted autoplay loop></video>
+   <a href="https://u24.gov.ua/" target="_blank">
+    <h1>STOP GENOCIDE in UKRAINE</h1>
+   </a>
+</body>
+</html>
