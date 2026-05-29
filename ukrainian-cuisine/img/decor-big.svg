@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 150 40">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #f9f1e5;
+      }
+
+      .st1, .st2 {
+        fill: #df0a14;
+      }
+
+      .st2 {
+        isolation: isolate;
+        opacity: .85;
+      }
+    </style>
+  </defs>
+  <g id="_Слой_2" data-name="Слой_2">
+    <rect class="st0" width="150" height="40"/>
+  </g>
+  <g id="_Слой_1" data-name="Слой_1">
+    <g>
+      <rect class="st1" x="26.84" y="18" width="4" height="4" transform="translate(-5.7 26.25) rotate(-45)"/>
+      <rect class="st1" x="26.84" y="11" width="4" height="4" transform="translate(-.75 24.2) rotate(-45)"/>
+      <rect class="st1" x="26.84" y="25" width="4" height="4" transform="translate(-10.65 28.3) rotate(-45)"/>
+      <rect class="st1" x="19.83" y="18" width="4" height="4" transform="translate(-7.75 21.29) rotate(-45)"/>
+      <rect class="st1" x="33.83" y="18" width="4" height="4" transform="translate(-3.65 31.2) rotate(-45)"/>
+    </g>
+    <g>
+      <rect class="st1" x="71.86" y="16.86" width="6.29" height="6.29" transform="translate(7.83 58.9) rotate(-45)"/>
+      <rect class="st1" x="71.87" y="5.86" width="6.29" height="6.29" transform="translate(15.61 55.67) rotate(-45)"/>
+      <rect class="st1" x="71.86" y="27.86" width="6.29" height="6.29" transform="translate(.05 62.12) rotate(-45)"/>
+      <rect class="st1" x="54.57" y="16.85" width="6.29" height="6.29" transform="translate(2.76 46.66) rotate(-45)"/>
+      <rect class="st1" x="89.15" y="16.86" width="6.29" height="6.29" transform="translate(12.89 71.12) rotate(-45)"/>
+      <rect class="st2" x="64.79" y="12.14" width="4.4" height="4.4" transform="translate(9.48 51.57) rotate(-45)"/>
+      <rect class="st2" x="80.82" y="12.14" width="4.4" height="4.4" transform="translate(14.18 62.91) rotate(-45)"/>
+      <rect class="st2" x="64.79" y="23.46" width="4.4" height="4.4" transform="translate(1.48 54.89) rotate(-45)"/>
+      <rect class="st2" x="80.81" y="23.46" width="4.4" height="4.4" transform="translate(6.17 66.21) rotate(-45)"/>
+    </g>
+    <g>
+      <rect class="st1" x="118.17" y="18" width="4" height="4" transform="translate(21.06 90.83) rotate(-45)"/>
+      <rect class="st1" x="118.17" y="11" width="4" height="4" transform="translate(26.01 88.78) rotate(-45)"/>
+      <rect class="st1" x="118.17" y="25" width="4" height="4" transform="translate(16.11 92.88) rotate(-45)"/>
+      <rect class="st1" x="111.17" y="18" width="4" height="4" transform="translate(19 85.88) rotate(-45)"/>
+      <rect class="st1" x="125.17" y="18" width="4" height="4" transform="translate(23.1 95.78) rotate(-45)"/>
+    </g>
+  </g>
+</svg>
