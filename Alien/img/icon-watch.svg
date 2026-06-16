@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 26 26">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #869229;
+        stroke-miterlimit: 10;
+      }
+
+      .st1 {
+        fill: #869229;
+      }
+    </style>
+  </defs>
+  <circle class="st0" cx="13" cy="13" r="10.99"/>
+  <g id="_Слой_2" data-name="Слой_2">
+    <polygon class="st1" points="10.13 7.81 18.77 12.66 10.15 17.18 10.13 7.81"/>
+  </g>
+</svg>
